@@ -44,6 +44,18 @@
 
   <!-- The main bundle js is generated during the build process -->
   <script src="build/main.js"></script>
-
+  <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCHfc1zxOhwsgqhyyYXFLeqWBjVPpdRuzI",
+      authDomain: "fir-storage-cb54d.firebaseapp.com",
+      databaseURL: "https://fir-storage-cb54d.firebaseio.com",
+      projectId: "fir-storage-cb54d",
+      storageBucket: "fir-storage-cb54d.appspot.com",
+      messagingSenderId: "100409723047"
+    };
+    firebase.initializeApp(config);
+  </script>
 </body>
 </html>

@@ -1,0 +1,36 @@
+page-login {
+    .content{
+        background-image: url('../../assets/imgs/lock.jpg');
+        background-size: contain;
+    }
+
+    .header{
+        text-align: center;
+        
+    }
+  img{
+      padding-right:50px;
+      padding-left:70px;
+
+      
+  }
+
+  
+
+.button {
+    
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+
+
+}
